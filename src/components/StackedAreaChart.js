@@ -23,6 +23,8 @@ export default {
         // .transitionDuration(500)
         .showControls(this.showControls)       //Allow user to choose 'Stacked', 'Stream', 'Expanded' mode.
         .clipEdge(this.clipEdge)
+        .interpolate("step")
+        .style('stream-center')
         .controlLabels({
           'stacked':'堆叠',
           'stream':'流',
